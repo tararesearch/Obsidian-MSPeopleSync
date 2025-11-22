@@ -17,11 +17,21 @@ People/
 Use command palette:
 Microsoft People Sync: Sync contacts from Microsoft Graph
 
+
 ## 📂 4. Check Generated Files
 People/@Name.md
 
 ## 🔗 5. Use in Notes
-Goto your note and type [[@ will see people list
+Using in note [[@  <- Will show People list from people folder
 
 Have a nice day.
+
+
+Example Template:
+#### {{displayName}} • 🧑‍💼 {{jobTitle}}
+📧 {{primaryEmail}}  
+📱 {{mobilePhone}}  
+🏢 {{department}} • {{companyName}} • {{officeLocation}}  
+👔 {{title}}  
+☎️ {{businessPhones}}
 
