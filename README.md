@@ -1,3 +1,8 @@
+
+![image]({https://img.shields.io/badge/Microsoft_Outlook-0078D4?style=for-the-badge&logo=microsoft-outlook&logoColor=white})
+
+
+
 # 📘 How to Use This Plugin (Microsoft People Sync)
 
 This plugin helps you sync your Microsoft Graph `/me/contacts` into clean, minimal Obsidian notes — one note per person — using a customizable template.
