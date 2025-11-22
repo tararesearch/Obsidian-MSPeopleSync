@@ -25,7 +25,7 @@ Microsoft People Sync: Sync contacts from Microsoft Graph
 People/@Name.md
 
 ## 🔗 5. Use in Notes
-Using in note [[@  <- Will show People list from people folder
+Using in note [[@  <- Will show People list from people folder \
 Using in note ![[@ <- will show embedded people information
 
 Have a nice day.
