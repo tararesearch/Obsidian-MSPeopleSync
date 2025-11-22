@@ -13,7 +13,7 @@ People/
 - File Prefix
 - Template customization
 
-![alt Plugin Config Screen](https://github.com/tararesearch/Obsidian-MSPeopleSync/blob/main/msconfig.png?raw=true)
+![alt Plugin Config Screen|400](https://github.com/tararesearch/Obsidian-MSPeopleSync/blob/main/msconfig.png?raw=true)
 
 ## 🚀 3. Sync Contacts
 Use command palette:
