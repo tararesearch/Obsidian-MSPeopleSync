@@ -13,7 +13,7 @@ People/
 - File Prefix
 - Template customization
 
-![[msconfig.png]]
+![msconfig.png]
 
 ## 🚀 3. Sync Contacts
 Use command palette:
