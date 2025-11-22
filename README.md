@@ -42,5 +42,5 @@ Example Template:
 
 This plug-in can working with other plug in \
 obsidian://show-plugin?id=at-people \
-obsidian://show-plugin?id=obsidian-completr \
+obsidian://show-plugin?id=obsidian-completr 
 
