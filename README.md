@@ -23,6 +23,7 @@ People/@Name.md
 
 ## 🔗 5. Use in Notes
 Using in note [[@  <- Will show People list from people folder
+Using in note ![[@ <- will show embedded people information
 
 Have a nice day.
 
@@ -34,4 +35,9 @@ Example Template:
 🏢 {{department}} • {{companyName}} • {{officeLocation}}  
 👔 {{title}}  
 ☎️ {{businessPhones}}
+
+
+This plug-in can working with other plug in
+obsidian://show-plugin?id=at-people
+obsidian://show-plugin?id=obsidian-completr
 
