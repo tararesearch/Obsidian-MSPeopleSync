@@ -13,6 +13,8 @@ People/
 - File Prefix
 - Template customization
 
+![[msconfig.png]]
+
 ## 🚀 3. Sync Contacts
 Use command palette:
 Microsoft People Sync: Sync contacts from Microsoft Graph
