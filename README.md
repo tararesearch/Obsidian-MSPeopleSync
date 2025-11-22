@@ -1,21 +1,24 @@
+# 📘 How to Use This Plugin (Microsoft People Sync)
 
-How to use this plugin
-1.Create folder for keep file people in your vault
-2.Setting 
-  2.1 Config Access Token
-  2.2 Config People folder
-  2.3 Config prefix
-  2.4 Customize your people information
+This plugin helps you sync your Microsoft Graph `/me/contacts` into clean, minimal Obsidian notes — one note per person — using a customizable template.
 
-Example:
-#### {{displayName}} • 🧑‍💼 {{jobTitle}}
-📧 {{primaryEmail}}  
-📱 {{mobilePhone}}  
-🏢 {{department}} • {{companyName}} • {{officeLocation}}  
-👔 {{title}}  
-☎️ {{businessPhones}}
-  3.Open command palettes and select Microsoft People Sync:Sync contacts from Microsoft Graph
-  4.Check People folder has been file @FirstnameSurename
-  5.Using in note [[@  <- Will show People list from people folder
+## 🧩 1. Create a People Folder
 
-Have a nice day.
+Create a folder:
+People/
+
+## ⚙️ 2. Plugin Settings
+- Access Token
+- People Folder
+- File Prefix
+- Template customization
+
+## 🚀 3. Sync Contacts
+Use command palette:
+Microsoft People Sync: Sync contacts from Microsoft Graph
+
+## 📂 4. Check Generated Files
+People/@Name.md
+
+## 🔗 5. Use in Notes
+[[ @
