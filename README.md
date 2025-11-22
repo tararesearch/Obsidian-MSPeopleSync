@@ -19,7 +19,7 @@ People/
 Use command palette:
 Microsoft People Sync: Sync contacts from Microsoft Graph
 
-![alt Plugin Run Screen|200](https://github.com/tararesearch/Obsidian-MSPeopleSync/blob/main/runscreen.png.png?raw=true)
+![alt Plugin Run Screen|200](https://github.com/tararesearch/Obsidian-MSPeopleSync/blob/main/runscreen.png?raw=true)
 
 ## 📂 4. Check Generated Files
 People/@Name.md
