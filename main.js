@@ -48,16 +48,16 @@ class PeopleSyncPlugin extends Plugin {
   async syncContacts() {
     const token = (this.settings.accessToken || "").trim();
     if (!token) {
-      new Notice("People Sync: กรุณาใส่ Access Token ใน Settings ก่อน", 5000);
+      new Notice("People Sync: Please Config Access Token in Settings", 5000);
       return;
     }
 
-    new Notice("People Sync: เริ่มดึงข้อมูลจาก Microsoft Graph...", 3000);
+    new Notice("People Sync: Starting Synchronize from Microsoft Graph...", 3000);
 
     try {
       const contacts = await this.fetchAllContacts(token);
       const result = await this.writeContactFiles(contacts);
-      new Notice(`People Sync: สร้าง/อัปเดต ${result.written} ไฟล์ (ข้าม ${result.skipped})`, 5000);
+      new Notice(`People Sync: Create/Update ${result.written} File (Skipped ${result.skipped})`, 5000);
     } catch (err) {
       console.error("People Sync error:", err);
       new Notice("People Sync error: " + (err && err.message ? err.message : err), 8000);
@@ -220,7 +220,7 @@ class PeopleSyncSettingTab extends PluginSettingTab {
 
     new Setting(containerEl)
       .setName("Access Token")
-      .setDesc("Access Token สำหรับ Microsoft Graph (Contacts.Read). ระวัง: ข้อมูลสำคัญ ห้ามแชร์.")
+      .setDesc("Access Token Microsoft Graph (Contacts.Read). Warning: Important don't share.")
       .addText(text =>
         text
           .setPlaceholder("eyJ0eXAiOiJKV1QiLCJhbGciOi...")
@@ -233,7 +233,7 @@ class PeopleSyncSettingTab extends PluginSettingTab {
 
     new Setting(containerEl)
       .setName("People folder")
-      .setDesc("โฟลเดอร์ปลายทางใน Vault (เช่น People)")
+      .setDesc("Folder for keep people file in Vault (Example People)")
       .addText(text =>
         text
           .setPlaceholder("People")
@@ -246,7 +246,7 @@ class PeopleSyncSettingTab extends PluginSettingTab {
 
     new Setting(containerEl)
       .setName("File name prefix")
-      .setDesc("Prefix (เช่น @ Using for autocomplete)")
+      .setDesc("Prefix (Example @ Using for autocomplete)")
       .addText(text =>
         text
           .setPlaceholder("@")
@@ -259,7 +259,7 @@ class PeopleSyncSettingTab extends PluginSettingTab {
 
     new Setting(containerEl)
       .setName("Template")
-      .setDesc("ใช้ {{field}} เพื่อแทนค่าจาก contact. ค่า default .")
+      .setDesc("For customize template with {{field}} from contact. default .")
       .addTextArea(area => {
         area
           .setValue(this.plugin.settings.template)
