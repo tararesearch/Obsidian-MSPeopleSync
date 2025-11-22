@@ -13,12 +13,13 @@ People/
 - File Prefix
 - Template customization
 
-![alt Plugin Config Screen|400](https://github.com/tararesearch/Obsidian-MSPeopleSync/blob/main/msconfig.png?raw=true)
+![alt Plugin Config Screen|200](https://github.com/tararesearch/Obsidian-MSPeopleSync/blob/main/msconfig.png?raw=true)
 
 ## 🚀 3. Sync Contacts
 Use command palette:
 Microsoft People Sync: Sync contacts from Microsoft Graph
 
+![alt Plugin Run Screen|200](https://github.com/tararesearch/Obsidian-MSPeopleSync/blob/main/runscreen.png.png?raw=true)
 
 ## 📂 4. Check Generated Files
 People/@Name.md
